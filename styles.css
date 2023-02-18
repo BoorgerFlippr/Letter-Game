@@ -1,0 +1,37 @@
+*{
+    font-family: sans-serif;
+}
+main{
+    width:80vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.word{
+    font-size: 70px;
+}
+
+letters
+{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    
+}
+
+div button{
+    background-color: yellow;
+    border-color: darkkhaki;
+    border-radius: 20px;
+    margin-top: 2px;
+    height: 80px;
+    width: 60px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+div button:disabled
+{
+    background-color: gray;
+    border-color: black;
+}
